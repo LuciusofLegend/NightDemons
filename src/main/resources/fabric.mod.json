@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "nightdemons",
+	"version": "${version}",
+	"name": "Night Demons",
+	"description": "An amazing social deduction game in Minecraft, inspired by Blood on the Clocktower!",
+	"authors": [
+		"LuciusofLegend"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/nightdemons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.luciusoflegend.nightdemons.NightDemons"
+		],
+		"fabric-datagen": [
+			"net.luciusoflegend.nightdemons.NightDemonsDataGenerator"
+		]
+	},
+	"mixins": [
+		"nightdemons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

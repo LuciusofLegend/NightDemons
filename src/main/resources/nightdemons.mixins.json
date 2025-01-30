@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.luciusoflegend.nightdemons.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
