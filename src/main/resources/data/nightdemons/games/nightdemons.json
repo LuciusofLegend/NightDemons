@@ -1,0 +1,7 @@
+{
+  "type": "nightdemons:nightdemonsgame",
+  "name": "Night Demons",
+  "description": ["A game of murder, demons and mystery..."],
+  "icon": "minecraft:eye_of_ender",
+  "greeting": "Welcome to NIGHT DEMONS!!"
+}
